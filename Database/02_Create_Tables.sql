@@ -47,3 +47,18 @@ CREATE TABLE Products
 );
 GO
 
+---------------------------------------------------
+-- Customers Table
+---------------------------------------------------
+
+CREATE TABLE Customers
+(
+    CustomerID INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    Email VARCHAR(100) UNIQUE,
+    Phone VARCHAR(20),
+    RegistrationDate DATE DEFAULT GETDATE()
+);
+GO
+
