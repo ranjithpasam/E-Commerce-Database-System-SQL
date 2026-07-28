@@ -10,6 +10,14 @@ This project simulates a real-world E-Commerce platform using Microsoft SQL Serv
 
 ---
 
+## Entity Relationship Diagram
+
+The following ER diagram illustrates the database schema and relationships between the major entities.
+
+![ER Diagram](ER_Diagram.png)
+
+
+
 ## 🗂️ Project Structure
 
 ```
