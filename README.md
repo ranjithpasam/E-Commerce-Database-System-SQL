@@ -163,3 +163,8 @@ https://github.com/ranjithpasam
 
 LinkedIn:
 https://www.linkedin.com/in/ranjithkumarpasam/
+
+![SQL Server](https://img.shields.io/badge/SQL%20Server-2019-red?style=for-the-badge&logo=microsoftsqlserver)
+![T-SQL](https://img.shields.io/badge/T--SQL-Programming-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?style=for-the-badge&logo=github)
