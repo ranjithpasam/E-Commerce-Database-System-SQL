@@ -62,3 +62,22 @@ CREATE TABLE Customers
 );
 GO
 
+---------------------------------------------------
+-- Addresses Table
+---------------------------------------------------
+
+CREATE TABLE Addresses
+(
+    AddressID INT IDENTITY(1,1) PRIMARY KEY,
+    CustomerID INT,
+    AddressLine VARCHAR(255) NOT NULL,
+    City VARCHAR(100),
+    State VARCHAR(100),
+    Country VARCHAR(100),
+    PostalCode VARCHAR(20),
+
+    FOREIGN KEY (CustomerID)
+        REFERENCES Customers(CustomerID)
+);
+GO
+
