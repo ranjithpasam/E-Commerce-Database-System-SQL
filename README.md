@@ -6,7 +6,9 @@ A complete SQL Server E-Commerce Database System demonstrating relational databa
 
 ## 📌 Project Overview
 
-This project simulates a real-world E-Commerce platform using Microsoft SQL Server. It includes customers, products, inventory, orders, payments, shipping, reviews, user management, reporting, and database optimization techniques.
+The following screenshot provides an overview of the SQL Server project, including database tables, queries, views, stored procedures, functions, triggers, indexes, and the ER diagram.
+
+![Project Overview](Screenshots/Project_Overview.png)
 
 ---
 
